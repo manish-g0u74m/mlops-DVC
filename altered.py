@@ -1,9 +1,9 @@
 import pandas as pd
 import os
 
-dict1 = {'name': ['manish','dishant', 'raghav', 'bhavishye'], 
-         'age': [23, 23, 24, 22],
-         'city': ['tonk', 'jaipur', 'gurgaon', 'delhi']}
+dict1 = {'name': ['manish','dishant', 'raghav', 'bhavishye', 'ankit'], 
+         'age': [23, 23, 24, 22, 25],
+         'city': ['tonk', 'jaipur', 'gurgaon', 'delhi', 'mumbai']}
 
 df = pd.DataFrame(dict1)
 print(df)
